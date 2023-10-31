@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json())
 
 // mongoose.connect('mongodb://127.0.0.1:27017/crud');
-mongoose.connect('mongodb://lucifer:lucifer123@ac-o7tdsyq-shard-00-00.qtetcrb.mongodb.net:27017,ac-o7tdsyq-shard-00-01.qtetcrb.mongodb.net:27017,ac-o7tdsyq-shard-00-02.qtetcrb.mongodb.net:27017/?ssl=true&replicaSet=atlas-72hrj7-shard-0&authSource=admin&retryWrites=true&w=majority');
+mongoose.connect('mongodb://<krishna username>:<passwors>@ac-o7tdsyq-shard-00-00.qtetcrb.mongodb.net:27017,ac-o7tdsyq-shard-00-01.qtetcrb.mongodb.net:27017,ac-o7tdsyq-shard-00-02.qtetcrb.mongodb.net:27017/?ssl=true&replicaSet=atlas-72hrj7-shard-0&authSource=admin&retryWrites=true&w=majority');
 
 
 app.get('/', (req, res) => {
